@@ -14,6 +14,15 @@ const Tabs = styled(NavLink)`
   text-decoration: none;
 `;
 
+const LogoutButton = styled(Button)`
+  && {
+    font-size: 20px;
+    color: inherit;
+    text-decoration: none;
+    margin-left: auto;
+  }
+`;
+
 function LoginNav({ onLogout }) {
   const history = useHistory();
 
@@ -31,10 +40,10 @@ function LoginNav({ onLogout }) {
       <Header>
         <Toolbar>
           <Tabs to='/'>HOME</Tabs>
-          <Tabs to='/dash'>DashBoard</Tabs>
-          <Tabs to='/add'>Add New Team</Tabs>
+          <Tabs to='/dash'>DASHBOARD</Tabs>
+          <Tabs to='/add'>ADD TEAM</Tabs>
           <Tabs to='/all'>EDIT TEAMS</Tabs>
-          <Button color="inherit" onClick={handleLogout}>Logout</Button>
+          <LogoutButton color="inherit" onClick={handleLogout}>Logout</LogoutButton>
         </Toolbar>
       </Header>
     </div>
