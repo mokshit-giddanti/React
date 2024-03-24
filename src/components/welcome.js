@@ -15,7 +15,7 @@ function WelcomePage() {
 
   return (
     <div style={{ backgroundImage: `url('/pms.jpg')`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-      <h1 style={{ color: 'black', fontSize: '200%' }}>
+      <h1 style={{ color: 'darkgreen', fontSize: '200%' }}>
         {wordsArray.slice(0, currentWordIndex + 1).join(' ')}
       </h1>
     </div>
