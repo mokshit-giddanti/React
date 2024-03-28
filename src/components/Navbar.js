@@ -31,7 +31,7 @@ function LoginNav({ onLogout }) {
     // onLogout();
     
     // Reload the page and redirect to the home route ("/")
-    history.push('/');
+    history.push('/React');
     window.location.reload();
   };
 
