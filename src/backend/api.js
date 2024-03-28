@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 const URL = "https://mern-test-moip.onrender.com";
 
 export const getUsers = async () => {
