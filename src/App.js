@@ -12,7 +12,7 @@ function App() {
   const [user, setLoginUser] = useState({});
 
   return (
-    <Router>
+    <Router basename="/React">
       <div className="App">
         <LoginNav />
         <Video/>
